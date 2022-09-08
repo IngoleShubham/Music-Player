@@ -1,0 +1,111 @@
+/* 1st row of cards */
+.card-1st{
+  display: inline-block;
+  position: relative;
+  height: 22vh;
+  width: 100%;
+  z-index: 10;
+  margin-top: 20vh;
+  /* margin-left: 1vw; */
+  }
+
+
+
+
+
+
+
+
+
+
+/* 2nd row of cards */
+.card-2nd, .card-3nd{
+  position: inherit;
+  display: block;
+  height: 32vh;
+  width: 100%;
+  z-index: 10;
+  margin-top: 10vh;
+  /* overflow: hidden; */
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.card-3nd{
+  margin-bottom: 13vh;
+}
+.card-3nd::-webkit-scrollbar, .card-2nd::-webkit-scrollbar {
+    display: none;
+}
+/* {
+  position: inherit;
+  display: block;
+  height: 40vh;
+  width: 100%;
+  z-index: 10;
+  margin-top: 10vh;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+} */
+.card-2nd-row{
+  display: inline-block;
+  background-color: #2B2B2B95;
+  height: 32vh;
+  width: 12vw;
+  border-radius: 1vh;
+  margin-left: 1vw;
+  transition: background-color 1s;
+  /* margin-top: 30vh; */
+}
+
+.card-2nd-row:hover{
+  background-color: #474240;
+}
+.tracklist-name{
+  display: inline-block;
+  position: relative;
+  top: 5vh;
+  left: 1vw;
+}
+
+
+
+/* card content css */
+
+.first-card{
+  display: block;
+  margin: 0;
+  height: 28vh;
+  width: 10vw;
+  margin: 2vh auto 0;
+}
+.profile-image{
+  height: 18vh;
+  width: 10vw;
+  display: block;
+}
+.profile-image-main{
+  height: 18vh;
+  width: 10vw;
+  display: block;
+}
+.playlist-description{
+  display: block;
+}
+.playlist-play-btn2{
+  border-color: rgba(111,111,111,0.2) transparent transparent;
+  border-radius: 100%;
+  background-color: #1DB954;
+  height: 6.5vh;
+  width: 6.5vh;
+  position: absolute;
+  bottom: 1.8vh;
+  margin-left: 8vw;
+  /* right: 2.5vh; */
+}
+.playlist-play-btn2:hover{
+  box-shadow: 0 0 10px #00000080;
+  height: 6.6vh;
+  width: 6.6vh;
+}
